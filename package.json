@@ -1,5 +1,5 @@
 {
-    "name": "my-parse",
+    "name": "liuz-my-parse",
     "version": "0.4.0",
     "description": "myParse - 支付宝小程序富文本解析自定义组件，支持HTML及markdown解析",
     "homepage": "https://github.com/liuzhuan/myParse",
