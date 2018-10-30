@@ -9,3 +9,7 @@
         回复{{ index }}:<template is="myParse" data="{{ myParseData: item }}"/>
     </block>
 </view>
+
+<modal a:if="{{ showModal }}"
+    onClose="onClose">
+</modal>

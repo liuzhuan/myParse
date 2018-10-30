@@ -1,0 +1,8 @@
+<import src="../../myParse/myParse.axml" />
+
+<view class="modal" onTap="onClose">
+    <view class="modal-content">
+        <view>点击关闭</view>
+        <template is="myParse" data="{{ myParseData: article.nodes }}"></template>
+    </view>
+</view>

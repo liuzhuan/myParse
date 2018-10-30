@@ -1,3 +1,6 @@
 {
-    "defaultTitle": "myParse信息及基本解析"
+    "defaultTitle": "myParse信息及基本解析",
+    "usingComponents": {
+        "modal": "/components/modal/index"
+    }
 }

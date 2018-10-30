@@ -1,7 +1,9 @@
 var MyParse = require('../../myParse/myParse.js');
 
 Page({
-    data: {},
+    data: {
+        showModal: true
+    },
 
     onLoad: function () {
         var that = this;
@@ -192,5 +194,13 @@ Page({
                 MyParse.myParseTemArray("replyTemArray", 'reply', replyArr.length, that)
             }
         }
-    }
+    },
+
+    onClose,
 })
+
+function onClose() {
+    this.setData({
+        showModal: false
+    });
+}
