@@ -49,7 +49,7 @@ var MyParse = require('../../myParse/myParse.js');
 
 ```js
 // 在使用的 acss 中引入 myParse.acss,可以在app.acss
-@import "/myParse/myParse.wxss";
+@import "/myParse/myParse.acss";
 ```
 
 ### 3. 数据绑定
@@ -72,7 +72,7 @@ MyParse.myParse('article', 'html', article, that, 5);
 
 ```xml
 <!-- 引入模板 -->
-<import src="你的路径/myParse/myParse.wxml"/>
+<import src="你的路径/myParse/myParse.axml"/>
 <!-- 这里data中article为bindName -->
-<template is="myParse" data="{{myParseData:article.nodes}}"/>
+<template is="myParse" data="{{ myParseData:article.nodes }}"/>
 ```
