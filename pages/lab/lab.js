@@ -1,8 +1,9 @@
 var MyParse = require('../../myParse/myParse.js');
+
 Page({
     data: {},
+
     onLoad: function (options) {
-        // 页面初始化 options为页面跳转所带来的参数
         var that = this;
         var aHrefHrefData = '<div style="color:red;text-align:center;padding:20px;"><a href="https://weappdev.com/index.html">点击我，可以跳转</a></div>';
         MyParse.myParse('aHrefHrefData', 'html', aHrefHrefData, that);
