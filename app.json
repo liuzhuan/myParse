@@ -4,26 +4,23 @@
     "pages/lab/lab"
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#000",
-    "navigationBarTitleText": "WxParse",
-    "navigationBarTextStyle":"white"
+    "titleBarColor": "#000",
+    "defaultTitle": "myParse"
   },
   "tabBar": {
-    "color": "#dddddd",
+    "textColor": "#dddddd",
     "selectedColor": "#3cc51f",
-    "borderStyle": "white",
     "backgroundColor": "#ffffff",
-    "list": [{
+    "items": [{
       "pagePath": "pages/index/index",
-      "iconPath": "image/icon_API.png",
-      "selectedIconPath": "image/icon_API_HL.png",
-      "text": "Demo"
+      "icon": "image/icon_API.png",
+      "activeIcon": "image/icon_API_HL.png",
+      "name": "Demo"
     }, {
       "pagePath": "pages/lab/lab",
-      "iconPath": "image/icon_API.png",
-      "selectedIconPath": "image/icon_API_HL.png",
-      "text": "实验室"
+      "icon": "image/icon_API.png",
+      "activeIcon": "image/icon_API_HL.png",
+      "name": "实验室"
     }]
   }
 }
