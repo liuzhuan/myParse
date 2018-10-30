@@ -19,7 +19,7 @@
 
 <template name="myParseImg">
     <image class="{{item.classStr}} myParse-{{item.tag}}" data-from="{{item.from}}" data-src="{{item.attr.src}}"
-        data-idx="{{item.imgIndex}}" src="{{item.attr.src}}" mode="aspectFit" onLoad="myParseImgLoad" onTap="myParseImgTap"
+        data-idx="{{item.imgIndex}}" src="{{item.attr.src}}" mode="widthFix" onLoad="myParseImgLoad" onTap="myParseImgTap"
         mode="widthFix" style="width:{{item.width}}px;" />
 </template>
 
