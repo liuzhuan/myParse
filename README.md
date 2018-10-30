@@ -76,3 +76,7 @@ MyParse.myParse('article', 'html', article, that, 5);
 <!-- 这里data中article为bindName -->
 <template is="myParse" data="{{ myParseData:article.nodes }}"/>
 ```
+
+## 为什么叫 myParse？
+
+因为微信小程序的命名空间是 `wx`（「微信」的缩写），而支付宝小程序的命名空间是 `my`（「蚂蚁」的缩写）。为了在支付宝小程序使用中更符合命名规范，将 `wxParse` 改为 `myParse`。
