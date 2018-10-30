@@ -1,6 +1,6 @@
 
-<!--pages/lab/lab.wxml-->
-<import src="../../myParse/myParse.wxml" />
+<import src="../../myParse/myParse.axml" />
+
 <view style="padding: 0 30px; border-bottom:1px solid #eee;">
   <view style="text-align:center; font-weight:bold;margin-top:20px;">实验室功能1: 动态插入</view>
   <view style="text-align:center;color: #333;margin-top:5px;margin-bottom:10px;">本功能是一种扩展的可能,我们可以在需要动态插入标签的地方动态使用此方法</view>

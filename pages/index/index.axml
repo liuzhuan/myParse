@@ -1,5 +1,5 @@
 
-<import src="../../myParse/myParse.wxml"/>
+<import src="../../myParse/myParse.axml"/>
 <view class="myParse">
     <template is="myParse" data="{{myParseData:article.nodes}}"/>
 </view>
