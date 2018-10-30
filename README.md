@@ -22,7 +22,7 @@ myParse 是基于开源软件 [wxParse](https://github.com/icindy/wxParse) 的�
 
 ## 感谢
 
-[@stonewen](https://github.com/stonewen)| [@Daissmentii](https://github.com/Daissmentii)        | [@wuyanwen](https://github.com/wuyanwen)           | [@vcxiaohan](https://github.com/vcxiaohan)  |
+[@icindy](https://github.com/icindy) | [@stonewen](https://github.com/stonewen)| [@Daissmentii](https://github.com/Daissmentii)        | [@wuyanwen](https://github.com/wuyanwen)           | [@vcxiaohan](https://github.com/vcxiaohan)  |
 
 ## 基本使用方法
 
