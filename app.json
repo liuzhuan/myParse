@@ -1,26 +1,29 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/lab/lab"
-  ],
-  "window":{
-    "titleBarColor": "#000",
-    "defaultTitle": "myParse"
-  },
-  "tabBar": {
-    "textColor": "#dddddd",
-    "selectedColor": "#3cc51f",
-    "backgroundColor": "#ffffff",
-    "items": [{
-      "pagePath": "pages/index/index",
-      "icon": "image/icon_API.png",
-      "activeIcon": "image/icon_API_HL.png",
-      "name": "Demo"
-    }, {
-      "pagePath": "pages/lab/lab",
-      "icon": "image/icon_API.png",
-      "activeIcon": "image/icon_API_HL.png",
-      "name": "实验室"
-    }]
-  }
+    "pages": [
+        "pages/index/index",
+        "pages/lab/lab"
+    ],
+    "window": {
+        "titleBarColor": "#000",
+        "defaultTitle": "myParse"
+    },
+    "tabBar": {
+        "textColor": "#dddddd",
+        "selectedColor": "#3cc51f",
+        "backgroundColor": "#ffffff",
+        "items": [
+            {
+                "pagePath": "pages/index/index",
+                "icon": "image/icon_API.png",
+                "activeIcon": "image/icon_API_HL.png",
+                "name": "Demo"
+            },
+            {
+                "pagePath": "pages/lab/lab",
+                "icon": "image/icon_API.png",
+                "activeIcon": "image/icon_API_HL.png",
+                "name": "实验室"
+            }
+        ]
+    }
 }

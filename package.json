@@ -1,20 +1,20 @@
 {
-  "name": "myParse",
-  "version": "0.4.0",
-  "description": "myParse - 支付宝小程序富文本解析自定义组件，支持HTML及markdown解析",
-  "homepage": "https://github.com/liuzhuan/myParse",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:liuzhuan/myParse.git"
-  },
-  "main": "myParse/myParse.js",
-  "scripts": {},
-  "keywords": [
-    "html",
-    "markdown",
-    "alipay",
-    "myparse-html-markdown"
-  ],
-  "devDependencies": {},
-  "dependencies": {}
+    "name": "my-parse",
+    "version": "0.4.0",
+    "description": "myParse - 支付宝小程序富文本解析自定义组件，支持HTML及markdown解析",
+    "homepage": "https://github.com/liuzhuan/myParse",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:liuzhuan/myParse.git"
+    },
+    "main": "myParse/myParse.js",
+    "scripts": {},
+    "keywords": [
+        "html",
+        "markdown",
+        "alipay",
+        "myparse-html-markdown"
+    ],
+    "devDependencies": {},
+    "dependencies": {}
 }

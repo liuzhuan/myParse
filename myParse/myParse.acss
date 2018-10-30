@@ -1,0 +1,253 @@
+/**
+ * author: Di (微信小程序开发工程师)
+ * organization: WeAppDev(微信小程序开发论坛)(http://weappdev.com)
+ *               垂直微信小程序开发交流社区
+ *
+ * github地址: https://github.com/icindy/myParse
+ *
+ * for: 微信小程序富文本解析
+ * detail : http://weappdev.com/t/myparse-alpha0-1-html-markdown/184
+ */
+
+.myParse {
+    margin: 0 5px;
+    font-family: Helvetica, sans-serif;
+    font-size: 28rpx;
+    color: #666;
+    line-height: 1.8;
+}
+view {
+    word-break: break-all;
+    overflow: auto;
+}
+.myParse-inline {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+/*//标题 */
+.myParse-div {
+    margin: 0;
+    padding: 0;
+}
+.myParse-h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+.myParse-h2 {
+    font-size: 1.5em;
+    margin: 0.75em 0;
+}
+.myParse-h3 {
+    font-size: 1.17em;
+    margin: 0.83em 0;
+}
+.myParse-h4 {
+    margin: 1.12em 0;
+}
+.myParse-h5 {
+    font-size: 0.83em;
+    margin: 1.5em 0;
+}
+.myParse-h6 {
+    font-size: 0.75em;
+    margin: 1.67em 0;
+}
+
+.myParse-h1 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0.9em;
+}
+.myParse-h2 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0.34em;
+}
+.myParse-h3 {
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 0.34em;
+}
+.myParse-h4 {
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 0.24em;
+}
+.myParse-h5 {
+    font-weight: 400;
+    font-size: 13px;
+    margin-bottom: 0.14em;
+}
+.myParse-h6 {
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 0.04em;
+}
+
+.myParse-h1,
+.myParse-h2,
+.myParse-h3,
+.myParse-h4,
+.myParse-h5,
+.myParse-h6,
+.myParse-b,
+.myParse-strong {
+    font-weight: bolder;
+}
+
+.myParse-i,
+.myParse-cite,
+.myParse-em,
+.myParse-var,
+.myParse-address {
+    font-style: italic;
+}
+.myParse-pre,
+.myParse-tt,
+.myParse-code,
+.myParse-kbd,
+.myParse-samp {
+    font-family: monospace;
+}
+.myParse-pre {
+    white-space: pre;
+}
+.myParse-big {
+    font-size: 1.17em;
+}
+.myParse-small,
+.myParse-sub,
+.myParse-sup {
+    font-size: 0.83em;
+}
+.myParse-sub {
+    vertical-align: sub;
+}
+.myParse-sup {
+    vertical-align: super;
+}
+.myParse-s,
+.myParse-strike,
+.myParse-del {
+    text-decoration: line-through;
+}
+/*myparse-自定义个性化的css样式*/
+/*增加video的css样式*/
+.myParse-strong,
+.myParse-s {
+    display: inline;
+}
+.myParse-a {
+    color: deepskyblue;
+    word-break: break-all;
+    overflow: auto;
+}
+
+.myParse-video {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.myParse-video-video {
+    width: 100%;
+}
+
+.myParse-img {
+    /*background-color: #efefef;*/
+    overflow: hidden;
+}
+
+.myParse-blockquote {
+    margin: 0;
+    padding: 10px 0 10px 5px;
+    font-family: Courier, Calibri, "宋体";
+    background: #f5f5f5;
+    border-left: 3px solid #dbdbdb;
+}
+
+.myParse-code,
+.myParse-wxxxcode-style {
+    display: inline;
+    background: #f5f5f5;
+}
+.myParse-ul {
+    margin: 20rpx 10rpx;
+}
+
+.myParse-li,
+.myParse-li-inner {
+    display: flex;
+    align-items: baseline;
+    margin: 10rpx 0;
+}
+.myParse-li-text {
+    align-items: center;
+    line-height: 20px;
+}
+
+.myParse-li-circle {
+    display: inline-flex;
+    width: 5px;
+    height: 5px;
+    background-color: #333;
+    margin-right: 5px;
+}
+
+.myParse-li-square {
+    display: inline-flex;
+    width: 10rpx;
+    height: 10rpx;
+    background-color: #333;
+    margin-right: 5px;
+}
+.myParse-li-ring {
+    display: inline-flex;
+    width: 10rpx;
+    height: 10rpx;
+    border: 2rpx solid #333;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: 5px;
+}
+
+.myParse-u {
+    text-decoration: underline;
+}
+.myParse-hide {
+    display: none;
+}
+.MyEmojiView {
+    align-items: center;
+}
+.myEmoji {
+    width: 16px;
+    height: 16px;
+}
+.myParse-tr {
+    display: flex;
+    border-right: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+}
+.myParse-th,
+.myParse-td {
+    flex: 1;
+    padding: 5px;
+    font-size: 28rpx;
+    border-left: 1px solid #e0e0e0;
+    word-break: break-all;
+}
+.myParse-td:last {
+    border-top: 1px solid #e0e0e0;
+}
+.myParse-th {
+    background: #f0f0f0;
+    border-top: 1px solid #e0e0e0;
+}
+.myParse-del {
+    display: inline;
+}
+.myParse-figure {
+    overflow: hidden;
+}
