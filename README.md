@@ -2,9 +2,9 @@ myParse 是基于开源软件 [wxParse](https://github.com/icindy/wxParse) 的�
 
 具体修改内容参见蚂蚁金服开发者社区的文章：[《支付宝富文本解析组件》](https://openclub.alipay.com/read.php?tid=8707&fid=66&ant_source=zsearch)。
 
-<h1 align="center" style="margin-bottom: 20px;">myParse-支付宝小程序富文本解析组件</h1>
-<h2 align="center">支持Html及markdown转wxml可视化</h2>
-<p align="center">作用: 将Html/Markdown转换为支付宝小程序的可视化方案</p>
+# myParse - 支付宝小程序富文本解析组件
+
+支持 Html 及 markdown 转 axml 可视化。作用是将 Html/Markdown 转换为支付宝小程序的可视化方案。
 
 ## 特性
 
