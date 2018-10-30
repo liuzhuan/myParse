@@ -1,0 +1,11 @@
+
+<import src="../../myParse/myParse.wxml"/>
+<view class="myParse">
+    <template is="myParse" data="{{myParseData:article.nodes}}"/>
+</view>
+
+<view style="padding: 20px 10px; background-color:#eee;">
+    <block a:for="{{replyTemArray}}" a:key="">
+        回复{{index}}:<template is="myParse" data="{{myParseData:item}}"/>
+    </block>
+</view>
