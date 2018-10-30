@@ -1,20 +1,19 @@
 {
-  "name": "wxParse",
-  "version": "0.3.0",
-  "description": "wxParse-微信小程序富文本解析自定义组件，支持HTML及markdown解析",
-  "homepage": "http://weappdev.com/",
+  "name": "myParse",
+  "version": "0.4.0",
+  "description": "myParse - 支付宝小程序富文本解析自定义组件，支持HTML及markdown解析",
+  "homepage": "https://github.com/liuzhuan/myParse",
   "repository": {
     "type": "git",
-    "url": "git@github.com:icindy/wxParse.git"
+    "url": "git@github.com:liuzhuan/myParse.git"
   },
-  "main": "wxParse/wxParse.js",
+  "main": "myParse/myParse.js",
   "scripts": {},
   "keywords": [
     "html",
     "markdown",
-    "weapp",
-    "weixin",
-    "wxparse-html-markdown"
+    "alipay",
+    "myparse-html-markdown"
   ],
   "devDependencies": {},
   "dependencies": {}
